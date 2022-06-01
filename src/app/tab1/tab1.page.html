@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title> Tab 1 </ion-title>
+    <ion-title> Início </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -10,14 +10,11 @@
       <ion-title size="large">Início</ion-title>
     </ion-toolbar>
   </ion-header>
-
+  <img class="img-item" src="./../../assets/routes.png" alt="Mapa" />
   <ion-card [routerLink]="['/tabs/tab2']">
     <ion-item>
       <ion-thumbnail slot="start">
-        <img
-          src="./../../assets/map.png"
-          alt="Mapa"
-        />
+        <ion-icon name="calendar"></ion-icon>
       </ion-thumbnail>
       <ion-label>Minhas Viagens</ion-label>
     </ion-item>
