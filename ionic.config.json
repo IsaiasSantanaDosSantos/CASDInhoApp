@@ -1,0 +1,7 @@
+{
+  "name": "CASDinhoApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
